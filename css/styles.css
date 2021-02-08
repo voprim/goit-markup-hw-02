@@ -20,7 +20,6 @@ body {
 /* ---COMMON--- */
 
 .section-title {
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -29,11 +28,27 @@ body {
   color: var(--text-bold-color);
 }
 
+.nav-header-item.current {
+  color: var(--link-hover-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* ---INDEX.HTML--- */
 
 .logo-link {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -46,7 +61,6 @@ body {
 }
 
 .nav-header {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -63,7 +77,6 @@ body {
 }
 
 .header-contacts {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -84,7 +97,6 @@ body {
 }
 
 .tagline-section-title {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -96,22 +108,20 @@ body {
 }
 
 .tagline-section-order {
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
   /* identical to box height, or 187% */
-
   /* display: flex;
   align-items: center; */
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--text-white-color);
+  background: var(--brand-color);
 }
 
 .advantages-section-title {
   font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -122,7 +132,6 @@ body {
 
 .advantages-section-text {
   font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -131,26 +140,30 @@ body {
   color: var(--text-main-color);
 }
 
+.team-section {
+  background-color: var(--background-light);
+}
+
+.team-section-item {
+  background-color: var(--background-white);
+}
+
 .team-section-name {
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-bold-color);
 }
 
 .team-section-position {
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-main-color);
@@ -162,7 +175,6 @@ body {
 
 .logo-link-footer {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -171,18 +183,15 @@ body {
 }
 
 .footer-location-text {
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   /* or 171% */
-
   letter-spacing: 0.03em;
   color: var(--text-white-color);
 }
 
 .footer-contacts {
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -199,7 +208,6 @@ body {
 /* ---PORTFOLIO.HTML--- */
 
 .works-button {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -216,7 +224,6 @@ body {
 }
 
 .works-cart-title {
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
@@ -226,7 +233,6 @@ body {
 }
 
 .works-cart-text {
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
