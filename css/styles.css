@@ -121,7 +121,6 @@ body {
 }
 
 .advantages-section-title {
-  font-family: Roboto;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -131,8 +130,6 @@ body {
 }
 
 .advantages-section-text {
-  font-family: Roboto;
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   /* or 171% */
@@ -149,7 +146,6 @@ body {
 }
 
 .team-section-name {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
